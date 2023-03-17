@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(228, 230, 230);
+}
+.container{
+    background-color: rgb(185, 255, 255);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+img{
+    height: 120px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.profile_image{
+    padding: 2%;
+    float: left;
+}
+.name{
+    padding: 30px;
+    float: left;
+}
+h1{
+    color: rgb(72, 137, 172);
+}
+.contact-info{
+    float: right;
+    padding: 3%;
+}
+.contact-info a{
+   color: teal;
+    text-decoration: none;
+}
+.contact-info a:hover{
+    color: rgb(194, 96, 61);
+    text-decoration: underline;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    border-bottom: none;
+    width: 100%;
+    margin: auto;
+}
+.personal-info{
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+.personal-left{
+    float: left;
+    width: 40%;
+}
+.personal-right{
+    float: right;
+    width: 60%;
+}
+.hr-common{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.experience{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.experience-left{
+    float: left;
+    width: 40%;
+}
+.experience-right{
+    float: right;
+    width: 60%;
+}
+.education{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.education-left{
+    float: left;
+    width: 40%;
+}
+.education-mid{
+    float: left;
+    width: 30%;
+    
+}
+.education-right{
+    float: right;
+    width: 30%;
+}
+.education-mid h5, .education-right h5{
+    float: left;
+}
+.ref{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.ref-left{
+    float: left;
+    width: 40%;
+}
+.ref-mid{
+    float: left;
+    width: 30%;
+    
+}
+.ref-right{
+    float: right;
+    width: 30%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.contact-footer a{
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+.fye a{
+    padding: 10px;
+}
+.copyright{
+    padding: 10px;
+}
+.fye a:hover{
+    text-decoration: underline;
+}
